@@ -11,24 +11,29 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f9fc;
+            background-color: #fce9e2; /* Softer light orange/pastel background */
             color: #1f2937;
         }
         .bg-vivid-orange { background-color: #ea5109; }
         .text-vivid-orange { color: #ea5109; }
         .testimonial-bg {
-            background-color: #fce9e2; /* Very light orange/cream */
+            background-color: #f7f9fc; /* Off-white for contrast */
         }
         .header-section {
             padding-top: 5rem;
             padding-bottom: 5rem;
+            border-bottom-left-radius: 50px; /* Soft Curve */
+            border-bottom-right-radius: 50px;
         }
-        /* Custom Background for Hero using the file name */
+        /* Custom Background for Hero using the file name and repositioning */
         .header-bg {
-            background-image: url('elp-3574rt.jpg'); /* CORRECTED: Using file name */
+            background-image: url('elp-3574rt.jpg'); 
             background-size: cover;
-            /* REPOSITIONING: Shift the focal point down to avoid cutting off the head */
             background-position: center 30%; 
+        }
+        /* Subtle Gradient for Credibility Section */
+        .cred-bg {
+            background-image: linear-gradient(180deg, #ffffff 0%, #f7f9fc 100%);
         }
     </style>
     <meta name="robots" content="noindex, follow">
@@ -37,80 +42,127 @@
 <body class="antialiased">
 
     <!-- Header Section: Lead Magnet Offer (Updated with Background Image and Overlay) -->
-    <div class="header-section text-white text-center relative overflow-hidden header-bg">
+    <div class="header-section text-white text-center relative overflow-hidden header-bg shadow-2xl">
         
         <!-- Overlay for readability -->
-        <div class="absolute inset-0 bg-gray-900 opacity-60"></div>
+        <div class="absolute inset-0 bg-gray-900 opacity-70"></div>
 
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <span class="text-sm font-bold tracking-widest uppercase text-vivid-orange">Resource for DC Startup Week Attendees</span>
+            <span class="text-sm font-black tracking-widest uppercase text-vivid-orange">Complimentary Download for Business Owners</span>
             <h1 class="mt-4 text-5xl md:text-6xl font-black tracking-tight">
                 THE LEAD GENERATION <span class="text-vivid-orange">BLUEPRINT</span>
             </h1>
-            <p class="mt-3 text-xl font-semibold">
-                Book <b>5-10 sales calls in your calendar each week</b> with high-quality, high-converting leads...
+            <p class="mt-3 text-2xl font-semibold">
+                Get the 5-Step System to Book <b>5-10 Qualified Sales Calls Every Week.</b>
             </p>
             <p class="mt-2 text-base font-light italic">
-                (without paying for expensive ads or burning out creating endless social media content!)
+                (Stop relying on cold outreach and guessing, start building a predictable lead engine.)
             </p>
         </div>
     </div>
 
+    <!-- Unstoppable Credibility Stack (New Section - Addresses Josh's Depth Need) -->
+    <div class="py-16 px-4 sm:px-6 lg:px-8 cred-bg">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-black text-gray-900 mb-2">
+                Unstoppable Credibility: The System Behind The Blueprint
+            </h2>
+            <p class="text-lg text-gray-600 mb-10 max-w-3xl mx-auto">
+                This isn't theory. This is the **exact, repeatable system** developed by Josh Chernikoff, battle-tested across 170+ private clients.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <div class="p-4 rounded-xl">
+                    <p class="text-5xl font-black text-vivid-orange">2</p>
+                    <p class="text-lg font-semibold mt-2 text-gray-900">Companies Built & Sold</p>
+                    <p class="text-sm text-gray-600">Proving the system works from launch to exit.</p>
+                </div>
+                <div class="p-4 rounded-xl">
+                    <p class="text-5xl font-black text-vivid-orange">170+</p>
+                    <p class="text-lg font-semibold mt-2 text-gray-900">Clients Achieving High-Quality Leads</p>
+                    <p class="text-sm text-gray-600">The methodology is proven across diverse, competitive markets.</p>
+                </div>
+                <div class="p-4 rounded-xl">
+                    <p class="text-5xl font-black text-vivid-orange">20+ YRS</p>
+                    <p class="text-lg font-semibold mt-2 text-gray-900">Sales & Entrepreneurship Experience</p>
+                    <p class="text-sm text-gray-600">Expertise distilled into this concise, actionable 5-step plan.</p>
+                </div>
+            </div>
+            
+            <!-- Placeholder for "Stages" Photo -->
+            <div class="mt-12">
+                <img src="https://placehold.co/800x200/cccccc/333333?text=Placeholder:+Credibility+Image+of+Josh+Speaking+on+Stage" alt="Stage Credibility Image" class="rounded-xl shadow-lg mx-auto w-full max-w-5xl">
+            </div>
+        </div>
+    </div>
+
     <!-- Main Content & Form Section -->
-    <div class="py-12 px-4 sm:px-6 lg:px-8">
-        <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
-
+    <div class="py-16 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-10">
+            
             <!-- Left Column: Credibility and Testimonials (Updated Messaging) -->
-            <div class="lg:col-span-2 space-y-10">
+            <div class="lg:col-span-2 space-y-12">
 
-                <!-- Credibility Block -->
-                <div class="bg-white p-6 md:p-8 rounded-xl shadow-lg border-t-4 border-vivid-orange">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4">
-                        Meet Josh!
+                <!-- Transformation Block (Addresses the "Depth" and "Transformation" gap) -->
+                <div class="bg-white p-6 md:p-8 rounded-xl shadow-xl border-l-4 border-vivid-orange">
+                    <h2 class="text-3xl font-black text-gray-900 mb-6">
+                        The Core Transformation: Stop Guessing, Start Scaling
                     </h2>
                     
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-                        
-                        <!-- Image Block (1/3 width on desktop) -->
-                        <div class="md:col-span-1 flex flex-col items-center justify-center order-2 md:order-1 pt-4 md:pt-0">
-                            <!-- CORRECTED: Using file name for the credibility image -->
-                            <img src="elp-3513rt.jpg" alt="Josh Chernikoff Credibility Photo" class="w-full h-auto rounded-lg shadow-xl border-4 border-gray-900 transform scale-105">
+                    <!-- Transformation Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                        <div class="space-y-4">
+                            <h3 class="text-2xl font-bold text-gray-800 border-b pb-2 mb-3">You Are Here Now:</h3>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-vivid-orange text-2xl font-black transform rotate-45">❌</span>
+                                <p class="text-gray-700"><b>Guesswork & Chaos:</b> Your outreach is sporadic and you have no idea which efforts will actually stick.</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-vivid-orange text-2xl font-black transform rotate-45">❌</span>
+                                <p class="text-gray-700"><b>Hustle & Burnout:</b> Spending 10 hours a week on manual outreach just to book 1-2 low-quality meetings.</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-vivid-orange text-2xl font-black transform rotate-45">❌</span>
+                                <p class="text-gray-700"><b>Wasted Leads:</b> Watching warm contacts go cold because you lack a reliable follow-up system.</p>
+                            </div>
                         </div>
 
-                        <!-- Text Block (2/3 width on desktop) -->
-                        <div class="md:col-span-2 space-y-4 order-1 md:order-2">
-                            <div class="space-y-1">
-                                <p class="text-lg font-semibold text-vivid-orange">Josh Chernikoff, Founder Who Built and Sold Two Companies</p>
-                                <p class="mt-1 text-gray-700">
-                                    This blueprint contains the exact strategies developed by Josh to successfully <b>start, scale, and sell two businesses.</b> He’s distilled 20+ years of entrepreneurship into a predictable, repeatable system that works across any industry.
-                                </p>
+                        <div class="space-y-4">
+                            <h3 class="text-2xl font-bold text-vivid-orange border-b border-vivid-orange pb-2 mb-3">You Will Be Here After:</h3>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-green-500 text-2xl font-black">✅</span>
+                                <p class="text-gray-900"><b>Predictable Strategy:</b> Knowing the next high-leverage move every Monday morning to fill your calendar.</p>
                             </div>
-                            <ul class="space-y-2 text-gray-700 list-disc list-inside ml-4">
-                                <li><b>Traction-Focused:</b> Stop hoping for leads and start building real sales momentum.</li>
-                                <li><b>Proven Success:</b> The plan is built on generating high-converting leads for over 100 private clients.</li>
-                            </ul>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-green-500 text-2xl font-black">✅</span>
+                                <p class="text-gray-900"><b>System & Scale:</b> Building an engine that generates leads while you focus on client delivery and growth.</p>
+                            </div>
+                            <div class="flex items-start space-x-3">
+                                <span class="text-green-500 text-2xl font-black">✅</span>
+                                <p class="text-gray-900"><b>Unshakeable Confidence:</b> Standing out as the expert so clients chase *you*, not the other way around.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Testimonial Block (Refined Copy) -->
+                <!-- Testimonial Block (Refined Copy with strong structure) -->
                 <div class="testimonial-bg p-6 md:p-8 rounded-xl shadow-lg border-2 border-vivid-orange/50">
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">
-                        What Entrepreneurs Are Saying
+                    <h3 class="text-2xl font-black text-gray-900 mb-4">
+                        Real-World Proof: What Entrepreneurs Are Saying
                     </h3>
                     <p class="text-xl italic font-medium text-gray-800">
-                        "I was grinding, but nothing felt like it was moving. I couldn't tell if it was me, my offer, or just bad timing. This system and the people challenged me to reframe my entire approach—without selling harder. That changed everything."
+                        "Before this system, I was grinding for hours, but nothing felt like it was moving. I couldn't tell if it was me, my offer, or just bad timing. This framework challenged me to reframe my entire approach—without selling harder. That clarity changed everything."
                     </p>
                     <p class="mt-4 text-right font-bold text-gray-900">— Brent N.</p>
-                    <p class="text-right text-sm text-gray-600">Tech Entrepreneur</p>
+                    <p class="text-right text-sm text-gray-600">Tech Founder</p>
                 </div>
             </div>
 
             <!-- Right Column: Form and Blueprint Mockup -->
             <div class="lg:col-span-1">
                 <div class="sticky top-8 bg-gray-100 p-6 rounded-xl shadow-2xl border-t-4 border-black">
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4">
-                        Get Your Step-by-Step Blueprint
+                    <h2 class="text-2xl font-black text-gray-900 mb-4">
+                        Download Your FREE Blueprint
                     </h2>
                     
                     <img src="https://placehold.co/300x230/ea5109/ffffff?text=Blueprint+PDF+Mockup" alt="Blueprint Mockup" class="w-full rounded-lg shadow-md mb-6">
@@ -179,5 +231,3 @@
 
 </body>
 </html>
-
-
